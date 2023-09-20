@@ -1,11 +1,11 @@
-# Kata Kickstarts - CSS (October 03, 2023)
+# Kata Kickstarts - CSS (September 26, 2023)
 ​
 This is a small Vue project scaled-down from the capstone starter code. The back-end has been removed so we can focus on the front-end. 
 
 <img src="https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif" height="200" width="auto" alt="Cartoon character fiddling with window blinds">
-<br><sub>( This GIF is in jest... I actually ❤️ CSS! )</sub>
+<sub>( This GIF is in jest... I actually ❤️ CSS! )</sub>
 
-<br></br>
+<br>
 
 <img src="./public/before-and-after.png" height="200" width="auto" alt="Before and after images of the application">
 
