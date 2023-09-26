@@ -68,6 +68,7 @@
   }
 
   img {
+      border: 0.25rem solid var(--black-cat);
       border-radius: 50%;
       height:10rem;
       width: auto;

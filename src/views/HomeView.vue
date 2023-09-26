@@ -31,8 +31,6 @@
 
 <style scoped>
 
-  @import '../../public/styles.css';
-
   div.home {
     height: 100vh;
     overflow: auto;
