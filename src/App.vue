@@ -30,7 +30,12 @@
     color: var(--black-cat);
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100%;
+  }
+
+  @media screen and (min-width: 750px) {
+    #app {
+      height: 100vh;
+    }
   }
 </style>
