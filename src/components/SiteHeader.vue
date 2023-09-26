@@ -4,8 +4,8 @@
             <img src="../../public/site-logo.png" />
         </div>
         <nav id="header-nav">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
+            <router-link v-bind:to="{ name: 'home' }">Home</router-link>
+            <router-link v-bind:to="{ name: 'about' }">About Us</router-link>
         </nav>
     </header>
 </template>
