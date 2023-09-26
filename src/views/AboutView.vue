@@ -1,7 +1,7 @@
 <template>
     <div class="about">
+        <div class="jumbotron"></div>
         <main>
-            <div></div>
             <img id="awkseal" src="../../public/awkward-seal.gif" alt="Awkward seal">
             <h1>About Us</h1>
             <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
@@ -30,6 +30,15 @@
 </template>
 
 <style scoped>
+
+  .jumbotron {
+    height: 30rem;
+    background: url('../../public/lighthouse.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%
+  }
+
   div.about {
     height: 100vh;
     overflow: auto;
@@ -65,7 +74,13 @@
   }
 
   #awkseal {
-    height: 30rem;
+    height: 50%;
     width: auto;
+  }
+
+  @media screen and (max-width: 950px) {
+    div#team {
+      flex-direction: column;
+    }
   }
 </style>
