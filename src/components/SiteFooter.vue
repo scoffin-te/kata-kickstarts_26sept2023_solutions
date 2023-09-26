@@ -15,8 +15,6 @@
 
 <style scoped>
 
-    @import '../../public/styles.css';
-
     footer {
         align-items: center;
         background-color: var(--candy-apple);
@@ -28,7 +26,9 @@
     }
 
     footer p, footer a {
-        height: 1rem;
+        align-items: center;
+        display: flex;
+        height: 2.5rem;
         margin: 0;
         flex-basis: 50%;
     }
@@ -38,6 +38,6 @@
     }
 
     footer a {
-        text-align: right;
+        justify-content: right;
     }
 </style>

@@ -32,8 +32,8 @@
 <style scoped>
 
   div.home {
+    flex: 1;
     height: 100vh;
-    overflow: auto;
     padding: 2rem;
   }
 
